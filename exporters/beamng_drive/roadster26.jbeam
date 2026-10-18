@@ -1,0 +1,57 @@
+{
+  "roadster2026": {
+    "information": {
+      "authors": "Tesla & SpaceX Vehicle Engineering",
+      "name": "Tesla Roadster 2026 (Rocket Augment)"
+    },
+    "slotType": "main",
+    "slots": [
+      ["type", "default", "description"],
+      ["roadster_engine", "roadster_engine_dual_rwd", "Dual SiC Rear Motors"],
+      ["roadster_cgt", "roadster_cgt_spacex_10", "10-Nozzle Cold-Gas Thruster Array"],
+      ["roadster_suction", "roadster_suction_fans_80kw", "4x20kW Ground-Effect Fans"]
+    ],
+    "variables": [
+      ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+      ["$copv_pressure", "range", "psi", "Propulsion", 5500, 100, 10000, "COPV Pressure", "Working Pressure of N2 Gas"],
+      ["$fan_power", "range", "kW", "Aerodynamics", 80, 0, 80, "Suction Fan Power", "Ground-Effect Fan Shaft Power"]
+    ],
+    "nodes": [
+      ["id", "posX", "posY", "posZ"],
+      {"frictionCoef": 0.5},
+      {"nodeMaterial": "|NM_METAL"},
+      {"collision": true},
+      {"selfCollision": true},
+      {"group": "roadster_chassis"},
+      {"nodeWeight": 45.0},
+      ["cgt_r1", -0.45, -1.95, 0.38],
+      ["cgt_r2", -0.15, -1.95, 0.38],
+      ["cgt_r3",  0.15, -1.95, 0.38],
+      ["cgt_r4",  0.45, -1.95, 0.38],
+      ["cgt_w1",  0.90,  1.30, 0.32],
+      ["cgt_w2", -0.90,  1.30, 0.32],
+      ["cgt_w3",  0.90, -1.30, 0.32],
+      ["cgt_w4", -0.90, -1.30, 0.32],
+      ["cgt_n1",  0.88,  1.85, 0.42],
+      ["cgt_n2", -0.88,  1.85, 0.42],
+      {"group": "roadster_floorpan"},
+      ["f1ll",  0.80,  1.20, 0.08],
+      ["f1rr", -0.80,  1.20, 0.08],
+      ["f4ll",  0.80, -1.20, 0.08],
+      ["f4rr", -0.80, -1.20, 0.08]
+    ],
+    "beams": [
+      ["id1:", "id2:"],
+      {"beamPrecompression": 1, "beamType": "|NORMAL", "beamLongBound": 1, "beamShortBound": 1},
+      {"beamSpring": 8501000, "beamDamp": 250},
+      {"beamDeform": 125000, "beamStrength": "FLT_MAX"},
+      ["cgt_r1", "cgt_r2"],
+      ["cgt_r2", "cgt_r3"],
+      ["cgt_r3", "cgt_r4"],
+      ["f1ll", "f1rr"],
+      ["f1ll", "f4ll"],
+      ["f1rr", "f4rr"],
+      ["f4ll", "f4rr"]
+    ]
+  }
+}

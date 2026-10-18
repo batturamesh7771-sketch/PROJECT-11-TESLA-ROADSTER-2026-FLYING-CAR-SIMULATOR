@@ -1,0 +1,20 @@
+{
+  "name": "tesla-roadster-2026-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-Stack 2026 Tesla Roadster Flying Car Simulation & 1,048-Part CAD Digital Twin",
+  "scripts": {
+    "dev": "vite apps/web-simulator",
+    "build": "tsc -b && vite build apps/web-simulator",
+    "test": "vitest run"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.0"
+  }
+}

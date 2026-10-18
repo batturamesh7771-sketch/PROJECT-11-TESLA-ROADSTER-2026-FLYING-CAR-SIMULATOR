@@ -1,0 +1,17 @@
+[project]
+name = "tesla-roadster-physics-engine"
+version = "1.0.0"
+description = "1,000 Hz Coupled 6-DOF Real-Gas Blowdown & Autonomy Physics Engine"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "numpy>=2.1.0",
+    "scipy>=1.14.0",
+    "websockets>=13.1",
+    "pydantic>=2.9.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

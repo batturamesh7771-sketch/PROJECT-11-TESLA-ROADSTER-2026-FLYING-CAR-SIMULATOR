@@ -1,0 +1,20 @@
+{
+  "NiagaraSystem": "NS_ColdGasMachDiamond",
+  "Parameters": {
+    "User.MachDiamondIntensity": {
+      "Type": "float",
+      "Default": 1.0,
+      "Description": "Scales luminosity of the standing shock train with net thrust"
+    },
+    "User.PlumeMachNumber": {
+      "Type": "float",
+      "Default": 2.18,
+      "Description": "Nozzle exit Mach number controlling expansion angle"
+    },
+    "User.CoreColor": {
+      "Type": "LinearColor",
+      "Default": [0.85, 0.95, 1.0, 1.0],
+      "Description": "Cryogenic condensation color of dry N2 gas"
+    }
+  }
+}
