@@ -64,19 +64,19 @@ export const FlightEngineeringLab: React.FC<FlightEngineeringLabProps> = ({
   }, []);
 
   const flightSequenceCardsTheme1 = [
-    { title: '1. Runway Approach', time: 'T + 0.0s', img: '/assets/seq-01-approach.png' },
-    { title: '2. 2.0G Wall Suction', time: 'T + 2.5s', img: '/assets/seq-02-takeoff.png' },
-    { title: '3. Inverted Ceiling', time: 'T + 4.2s', img: '/assets/seq-04-inverted.png' },
-    { title: '4. Lip Drop & 180° Flip', time: 'T + 5.5s', img: '/assets/seq-03-midair.png' },
-    { title: '5. 10-Nozzle Landing', time: 'T + 8.0s', img: '/assets/seq-05-landing.png' },
+    { title: '1. Runway Approach', time: 'T + 0.0s', img: './assets/seq-01-approach.png' },
+    { title: '2. 2.0G Wall Suction', time: 'T + 2.5s', img: './assets/seq-02-takeoff.png' },
+    { title: '3. Inverted Ceiling', time: 'T + 4.2s', img: './assets/seq-04-inverted.png' },
+    { title: '4. Lip Drop & 180° Flip', time: 'T + 5.5s', img: './assets/seq-03-midair.png' },
+    { title: '5. 10-Nozzle Landing', time: 'T + 8.0s', img: './assets/seq-05-landing.png' },
   ];
 
   const flightSequenceCardsTheme2 = [
-    { title: '1. Stuck in Gridlock', time: 'T + 0.0s', img: '/assets/seq-01-approach.png' },
-    { title: '2. Vertical Liftoff', time: 'T + 2.0s', img: '/assets/seq-02-takeoff.png' },
-    { title: '3. Fly & Flip Over Traffic', time: 'T + 3.8s', img: '/assets/seq-03-midair.png' },
-    { title: '4. Gravity Drop & Retro', time: 'T + 6.5s', img: '/assets/seq-04-inverted.png' },
-    { title: '5. Highway Touchdown', time: 'T + 8.5s', img: '/assets/seq-05-landing.png' },
+    { title: '1. Stuck in Gridlock', time: 'T + 0.0s', img: './assets/seq-01-approach.png' },
+    { title: '2. Vertical Liftoff', time: 'T + 2.0s', img: './assets/seq-02-takeoff.png' },
+    { title: '3. Fly & Flip Over Traffic', time: 'T + 3.8s', img: './assets/seq-03-midair.png' },
+    { title: '4. Gravity Drop & Retro', time: 'T + 6.5s', img: './assets/seq-04-inverted.png' },
+    { title: '5. Highway Touchdown', time: 'T + 8.5s', img: './assets/seq-05-landing.png' },
   ];
 
   const flightSequenceCards = vehicle.activeTheme === 'THEME_2_TRAFFIC'
@@ -380,7 +380,7 @@ export const FlightEngineeringLab: React.FC<FlightEngineeringLabProps> = ({
               {/* Vehicle Preview Card Image */}
               <div className="relative rounded overflow-hidden mb-2 border border-slate-800 bg-slate-950 h-24 flex items-center justify-center">
                 <img
-                  src="/assets/roadster-flight-card.png"
+                  src="./assets/roadster-flight-card.png"
                   alt="Tesla Roadster Flight Variant"
                   className="w-full h-full object-cover object-center"
                 />
@@ -1078,7 +1078,7 @@ export const FlightEngineeringLab: React.FC<FlightEngineeringLabProps> = ({
               </div>
               <div className="flex gap-2">
                 <img
-                  src="/assets/simulation-environment.png"
+                  src="./assets/simulation-environment.png"
                   alt="Coastal Mountain Environment"
                   className="w-20 h-14 rounded object-cover border border-slate-800"
                 />

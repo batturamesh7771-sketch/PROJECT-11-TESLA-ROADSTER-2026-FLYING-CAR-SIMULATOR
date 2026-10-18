@@ -2,6 +2,14 @@
 
 <div align="center">
 
+# 🎮 [👉 CLICK HERE TO LAUNCH LIVE 3D WEBGL SIMULATOR IN BROWSER 👈](https://batturamesh7771-sketch.github.io/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/)
+
+### **[https://batturamesh7771-sketch.github.io/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/](https://batturamesh7771-sketch.github.io/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/)**
+*Zero installation required • Instant 60 FPS Three.js & WebGL • Runs on Chrome, Edge, Firefox, Safari, and Mobile*
+
+[![Play Live WebGL Simulator](https://img.shields.io/badge/PLAY_LIVE_WEBGL-TEST_IN_BROWSER-00f0ff?style=for-the-badge&logo=googlechrome&logoColor=black)](https://batturamesh7771-sketch.github.io/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/)
+[![Download Full Project ZIP](https://img.shields.io/badge/DOWNLOAD-FULL_PROJECT_ZIP_(24.6_MB)-success?style=for-the-badge&logo=github)](https://github.com/batturamesh7771-sketch/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/releases/download/v1.0.0/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR.zip)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React: 19](https://img.shields.io/badge/React-19.0.0-cyan.svg)](https://react.dev)
 [![Three.js: 0.170](https://img.shields.io/badge/Three.js-r170-black.svg)](https://threejs.org)
@@ -12,7 +20,7 @@
 **Author:** **Mr ELONIKHIL** ([@batturamesh7771-sketch](https://github.com/batturamesh7771-sketch))  
 *Real Engineering. Real Newtonian Calculations. Virtual 3D World.*
 
-[Live Telemetry](#-interactive-workstation--telemetry-architecture) • [Aerospace Physics](#-aerospace-physics--mechanisms) • [Proving Grounds](#-two-complete-3d-proving-ground-environments) • [Tech Stack](#-technical-architecture--tech-stack) • [How to Run](#-getting-started--local-installation)
+[🎮 Live WebGL Demo](https://batturamesh7771-sketch.github.io/PROJECT-11-TESLA-ROADSTER-2026-FLYING-CAR-SIMULATOR/) • [📑 Uploaded Docs & PDFs](#-official-technical-specifications--documents-word--pdf) • [Live Telemetry](#-interactive-workstation--telemetry-architecture) • [Aerospace Physics](#-aerospace-physics--mechanisms) • [Proving Grounds](#-two-complete-3d-proving-ground-environments) • [How to Run](#-getting-started--local-installation)
 
 </div>
 
@@ -41,6 +49,20 @@
 ![Testing Matrix](artifacts/screenshots/realtime-ui-modal-testing.png)
 
 </div>
+
+---
+
+## 📑 Official Technical Specifications & Documents (Word & PDF)
+
+All original engineering research papers, prompt blueprints, and CAD architectures uploaded for this project are included in [`docs/specifications/`](docs/specifications/):
+
+| Document Title | Format | File Link | Description |
+| :--- | :---: | :--- | :--- |
+| **Tesla Roadster 2026: SpaceX Propulsion & Simulation** | **Word (.docx)** | [📄 View / Download](docs/specifications/Tesla_Roadster_2026_SpaceX_Propulsion_and_Simulation.docx) | SpaceX cold-gas thruster thermodynamics, COPV mass blowdown, and aerodynamic suction equations. |
+| **Full-Stack Engineering Blueprint for Antigravity AI** | **PDF (.pdf)** | [📕 View / Download](docs/specifications/Full_Stack_Engineering_Blueprint_Antigravity_AI.pdf) | Stage-by-stage architectural prompt specification, 1,048-part CAD assembly, and mission roadmap. |
+| **Aerothermodynamic Propulsion & 1,048-Part CAD Architecture** | **PDF (.pdf)** | [📕 View / Download](docs/specifications/Aerothermodynamic_Propulsion_1048_Part_CAD_Architecture.pdf) | Comprehensive 1.15 MB aerospace treatise on ground-effect suction fans, VLA neural autonomy, and RCS matrix. |
+| **Original Reference Photographic & CAD Gallery** | **Images (24)** | [🖼️ View Gallery](docs/specifications/reference_images/) | Complete collection of user-uploaded reference photos, chassis schematics, and proving ground tracks. |
+| **Original Raw Upload References** | **Raw Files** | [`media_1792230902989.docx`](docs/specifications/media_1792230902989.docx) • [`media_1792231141928.pdf`](docs/specifications/media_1792231141928.pdf) • [`media_1792231151101.pdf`](docs/specifications/media_1792231151101.pdf) | Exact raw filenames preserved for automated indexing and provenance tracking. |
 
 ---
 
